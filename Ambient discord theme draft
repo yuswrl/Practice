@@ -1,0 +1,83 @@
+/**
+ * @name colorscript :p 
+ * @author velusional AKA yuswrl
+ * @version 1.0 (will hopefully be updated in the future!)
+ * @var text			accentcolor_s		"blurple color"			163, 47, 194
+ * @var text			accentcolor2_s		"boost pink color"		225, 115, 180
+ * @var text			linkcolor_s		"link color"			190, 60, 220
+ */
+
+:root {
+	--accentcolor:		78, 95, 92;		/*	blurple		-	default:	88, 101, 242			*/
+	--accentcolor2:		78, 95, 92;		/*	boostpink	-	default:	255, 115, 250			*/
+	--linkcolor:		78, 95, 92;		/*	link		-	default:	0, 176, 244			*/
+}
+
+/** note for self; END OF COLORSCRIPT HERE ^^ (line 14)
+
+/**
+ * 
+ * @var text				transparencycolor_s		"Transparency Color: [default] = 0, 0, 0"		0, 0, 0
+ * @var range				transparencyalpha_s		"Transparency Alpha: [default] = 0.15"			[0.15, 0, 1, 0.05]
+ * @var range				messagetransparency_s		"Messages: [default] = 0.5, 0 = No Boxes"		[0.5, 0, 1, 0.05]
+ * @var range				guildchanneltransparency_s	"Guilds/Channels: [default] = 0.15"			[0.15, 0, 1, 0.05]
+ * @var range				chatinputtransparency_s		"Chat Input: [default] = 0"				[0, 0, 1, 0.05]
+ * @var range				memberlisttransparency_s	"Memberlist: [default] = 0"				[0, 0, 1, 0.05]
+ * @var text				accentcolor_s			"Accent Color: [default] = 88, 101, 242"		190, 78, 180
+ * @var checkbox			settingsicons_s			"User Settings Icons"					1
+ * @var text				font_s				"General Font"						"gg sans", "Noto Sans"
+ * @var text				textshadow_s			"Text Shadow: [default] = rgba(0, 0, 0, 0)"		rgba(0, 0, 0, 0)
+ * @var text				background_s			"Background: Can be an Image/Color/Gradient"		url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/_res/background.jpg)
+ * @var select				backgroundposition_s		"Background Position"					["center*", "top", "right", "bottom", "left"]
+ * @var select				backgroundsize_s		"Background Size"					["cover*", "contain", "auto"]
+ * @var range				backgroundblur_s		"Background Blur"					[0, 0, 100, 1]
+ * @var text				popout_s			"Popups BG: Can be an Image/Color/Gradient"		var(--background)
+ * @var select				popoutposition_s		"Popups BG Position"					["center*", "top", "right", "bottom", "left"]
+ * @var select				popoutsize_s			"Popups BG Size"					["cover*", "contain", "auto"]
+ * @var range				popoutblur_s			"Popups BG Blur"					[0, 0, 100, 1]
+ * @var text				backdrop_s			"Backdrop BG: Can be an Image/Color/Gradient"		rgba(0, 0, 0, 0.85)
+ * @var select				backdropposition_s		"Backdrop BG Position"					["center*", "top", "right", "bottom", "left"]
+ * @var select				backdropsize_s			"Backdrop BG Size"					["cover*", "contain", "auto"]
+ * @var range				backdropblur_s			"Backdrop BG Blur"					[0, 0, 100, 1]
+ * @var text				textbrightest_s			"Text Color 1: [default] = 255, 255, 255"		255, 255, 255
+ * @var text				textbrighter_s			"Text Color 2: [default] = 222, 222, 222"		222, 222, 222
+ * @var text				textbright_s			"Text Color 3: [default] = 200, 200, 200"		200, 200, 200
+ * @var text				textdark_s			"Text Color 4: [default] = 160, 160, 160"		160, 160, 160
+ * @var text				textdarker_s			"Text Color 5: [default] = 125, 125, 125"		125, 125, 125
+ * @var text				textdarkest_s			"Text Color 6: [default] = 90, 90, 90"			90, 90, 90
+ */
+
+:root {
+	
+	--settingsicons:		1;				/* use settings icons in User Settings: 1 = yes, 0 = no											*/
+	--font:				"gg sans", "Noto Sans";		/* font used in most places :3													*/
+	--textshadow:			transparent;			/* default: transparent						*/
+	
+	--background:			url(https://i.pinimg.com/originals/b9/08/86/b90886beff7a7664af28e02792674ce7.gif);	/* background image					*/
+	--backgroundposition:		center;				/* default: center							*/
+	--backgroundsize:		cover;				/* default: cover								*/
+	--backgroundblur:		0;				/* default: 0									*/
+	
+	--popout:			var(--background);		/* default: var(--background)						*/
+	--popoutposition:		var(--backgroundposition);	/* default: center								*/
+	--popoutsize:			var(--backgroundsize);		/* default: cover								*/
+	--popoutblur:			var(--backgroundblur);		/* default: 0								*/
+	
+	--backdrop:			rgba(0, 0, 0, 0.85);		/* default: rgba(0, 0, 0, 0.85)								*/
+	--backdropposition:		center;				/* default: center							*/
+	--backdropsize:			cover;				/* default: cover									*/
+	--backdropblur:			0;				/* default: 0								*/
+	
+	--textbrightest: 		255, 255, 255;			/* default: 255, 255, 255										*/
+	--textbrighter: 		222, 222, 222;			/* default: 222, 222, 222										*/
+	--textbright: 			200, 200, 200;			/* default: 200, 200, 200											*/
+	--textdark: 			160, 160, 160;			/* default: 160, 160, 160											*/
+	--textdarker: 			125, 125, 125;			/* default: 125, 125, 125											*/
+	--textdarkest: 			90, 90, 90;			/* default: 90, 90, 90											*/
+	
+	--version1_0_5:			none;				
+
+    /* TYSM FOR USING ^_^
+    lots of love									*/
+}
+	
